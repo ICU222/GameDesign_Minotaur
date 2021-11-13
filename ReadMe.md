@@ -5,9 +5,9 @@ This project is for making a game 'minotaur' with unity.
 
 # Team Member
 ----------------------------------------
-KoJaeWon
-Felix
-Anthony
+KoJaeWon</br>
+Felix</br>
+Anthony</br>
 Dorian
 ### Game propsal : [Minotaur Game Proposal](https://github.com/ICU222/GameDesign_Minotaur/blob/main/Game%20Proposal.pdf)
 
