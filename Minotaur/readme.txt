@@ -1,4 +1,6 @@
 ReadMe about files
+
+ Contact me if you don't understand anything.
 =======================================
 How to use :
 	1. download this directory[Minotaur] in Github
@@ -11,6 +13,12 @@ Before we start
 	- But I changed many things so it will not be a matter
 
 =======================================
+How tp play << add 11/15
+	- At first, you can see nothing but floor and humanoid
+	- click ▶ button
+	- then there will be a maze and you will be in the maze
+
+========================================
 Description of this files :
 
 1. Project files Overview :
@@ -27,6 +35,11 @@ Description of this files :
 	[Project]
 	[Assets] - [prefabs] - cell : one cell for making a maze
 	[Assets] - [scripts] - Cell.cs, Mazegenerator.cs : C# files for making a maze
+	[Assets] - [prefabs] - wall2, floorgrass : texture for wall and floor << add in 11/14, 11/15
 
 =======================================
-If there is some confusing things, call me.
+what has been changed
+	- add maze		11/13
+	- add texture of wall	11/14
+	- add texture of floor and change the start location of humanoid	11/15
+	
