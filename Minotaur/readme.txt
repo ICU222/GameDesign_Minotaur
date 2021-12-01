@@ -28,7 +28,7 @@ Description of this files :
 	In Invetor_BasicLocomotion, ( you can open this dir in unity )
 	[Hierarchy]
 		ㄴLevel				- here's a maze
-		ㄴThirdPersonController_LITE	- here's a player
+		ㄴMinotaur			- here's a player
 		ㄴThirdPersonCamera_LITE		- here's a view of camera
 
 2. some description of other files :
@@ -42,4 +42,5 @@ what has been changed
 	- add maze		11/13
 	- add texture of wall	11/14
 	- add texture of floor and change the start location of humanoid	11/15
+	- add the minotaur model and the controller				12/01
 	
