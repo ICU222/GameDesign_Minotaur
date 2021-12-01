@@ -30,6 +30,7 @@ Description of this files :
 		ㄴLevel				- here's a maze
 		ㄴMinotaur			- here's a player
 		ㄴThirdPersonCamera_LITE		- here's a view of camera
+		ㄴHuman1			- This is a Human which has animation
 
 2. some description of other files :
 	[Project]
@@ -39,8 +40,16 @@ Description of this files :
 
 =======================================
 what has been changed
-	- add maze		11/13
-	- add texture of wall	11/14
-	- add texture of floor and change the start location of humanoid	11/15
-	- add the minotaur model and the controller				12/01
+	- add maze							11/13	by kjw
+	- add texture of wall						11/14	by kjw
+	- add texture of floor and change the start location of humanoid		11/15	by kjw
+	- add the minotaur model and the controller				11/25	by kjw
+	- add minotaur ridgid body and collision dection			11/30	by kjw
+	- change the floor and wall's texture					11/30	by kjw
+	- add the bgm of the maze and Minotaur(growl)			12/01	by kjw
+	- add the human model and animation				12/01	by kjw
+
+what has to be done
+	- add motion of after collision between human and minotaur
+	- add movement of humans
 	
