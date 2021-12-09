@@ -48,8 +48,9 @@ what has been changed
 	- change the floor and wall's texture					11/30	by kjw
 	- add the bgm of the maze and Minotaur(growl)			12/01	by kjw
 	- add the human model and animation				12/01	by kjw
+	- add a new human model and animation				12/08   by Anthony
+	- add a script so the human can move alone			12/08	by Anthony
 
 what has to be done
 	- add motion of after collision between human and minotaur
-	- add movement of humans
 	

@@ -90,6 +90,7 @@ namespace StarterAssets
 		private const float _threshold = 0.01f;
 
 		private bool _hasAnimator;
+		public GameObject _player;
 
 		private void Awake()
 		{
@@ -105,6 +106,7 @@ namespace StarterAssets
 			_hasAnimator = TryGetComponent(out _animator);
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
+			_player = GameObject.Find("PlayerArmature");
 
 			AssignAnimationIDs();
 
@@ -170,7 +172,6 @@ namespace StarterAssets
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
-
 			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
 			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
@@ -198,9 +199,15 @@ namespace StarterAssets
 				_speed = targetSpeed;
 			}
 			_animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
+			
 
 			// normalise input direction
 			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
+            // Devant = new Vector3(0.0f, 0.0f, 1).normalized
+            // Gauche = new Vector3(-1, 0.0f, 0.0f).normalized
+            // Droite = new Vector3(1, 0.0f, 0.0f).normalized
+            // Derrière = new Vector3(0.0f, 0.0f, -1).normalized
+
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
