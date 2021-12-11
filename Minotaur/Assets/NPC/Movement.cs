@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Invector.vCharacterController;
 
+[RequireComponent(typeof(AudioSource))]
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 3f;
@@ -11,6 +13,7 @@ public class Movement : MonoBehaviour
     public bool isOk = false;
     public Vector3 firstWall = new Vector3(0f, 0f, 0f);
     public Vector3 tmp = new Vector3 (0f, 0f, 0f);
+    public float volume = 0.5f;
 
     // Update is called once per frame
     void Update()
@@ -31,7 +34,6 @@ public class Movement : MonoBehaviour
         float z = tmp.z - transform.position.z;
         if (x < 0.5 && x > -0.5 && z < 0.5 && z > -0.5)
         {
-            Debug.Log("je passe");
             tmp = new Vector3(0f, 0f, 0f);
             turn += 1;
             if (turn != 4)
@@ -40,7 +42,6 @@ public class Movement : MonoBehaviour
                 {
                     firstWall = transform.position;
                 }
-                Debug.Log("LA");
                 transform.Rotate(0.0f, 90.0f, 0.0f, Space.Self);
             }
             else if ((firstWall.x - transform.position.x) < 0.3 && (firstWall.x - transform.position.x) > -0.5 && (firstWall.y - transform.position.y) < 0.5 && (firstWall.y - transform.position.y) > -0.5)
@@ -57,5 +58,17 @@ public class Movement : MonoBehaviour
             }
         }
         isOk = false;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.name == "Mino")
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.PlayOneShot(audio.clip, volume);
+            other.gameObject.GetComponent<vThirdPersonInput>().points++;
+
+            Destroy(gameObject, 2);
+        }
     }
 }

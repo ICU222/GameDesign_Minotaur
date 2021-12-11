@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Invector.vCharacterController
 {
     public class vThirdPersonInput : MonoBehaviour
     {
+        public int points = 0;
         #region Variables       
 
         [Header("Controller Input")]
@@ -48,6 +50,14 @@ namespace Invector.vCharacterController
             cc.ControlAnimatorRootMotion(); // handle root motion animations 
         }
 
+        private void OnGUI()
+        {
+            GUI.Label(new Rect(10, 10, 100, 20), "Score : " + points + " / 2");
+            if (points == 2)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
         #region Basic Locomotion Inputs
 
         protected virtual void InitilizeController()

@@ -1,0 +1,364 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'fr' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/titoo/Desktop/Corée/Cours/game_design/tmp3/GameDesign_Minotaur/Minotaur
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55238
+Successfully changed project path to: C:/Users/titoo/Desktop/Corée/Cours/game_design/tmp3/GameDesign_Minotaur/Minotaur
+C:/Users/titoo/Desktop/Corée/Cours/game_design/tmp3/GameDesign_Minotaur/Minotaur
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/titoo/Desktop/Corée/Cours/game_design/tmp3/GameDesign_Minotaur/Minotaur/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008105 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (554ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007304 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\titoo\Desktop\Corée\Cours\game_design\tmp3\GameDesign_Minotaur\Minotaur\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\titoo\Desktop\Corée\Cours\game_design\tmp3\GameDesign_Minotaur\Minotaur\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3636.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 2.786600 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.220900 ms MarkObjects: 2.285200 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302422.101084 seconds.
+  path: Assets/NPC/Remy_Top_Specular.png
+  artifactKey: Guid(301f4e048a21b7a4ba3c22488def8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Top_Specular.png using Guid(301f4e048a21b7a4ba3c22488def8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9720aeb53207a825d1c31eef70889ef') in 0.093317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NPC/Remy_Body_Diffuse.png
+  artifactKey: Guid(8cb04dc92067ce84b9bfd827e15dbb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Body_Diffuse.png using Guid(8cb04dc92067ce84b9bfd827e15dbb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f434023a3323ecc04f1aec15fd43ef9d') in 0.022129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NPC/Remy_Shoes_Opacity.png
+  artifactKey: Guid(d692bda606794484d93f3856a7155581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Shoes_Opacity.png using Guid(d692bda606794484d93f3856a7155581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d958fed962e7e6fb784f001cf9a3cd') in 0.013294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPC/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(cbdbee20a669f514e856e2afa20a32e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Bottom_Diffuse.png using Guid(cbdbee20a669f514e856e2afa20a32e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee21951269b799c901d014af95e7b54b') in 0.015288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPC/Bottommat.mat
+  artifactKey: Guid(594bec8fcf0d2b542ac51fa09c464af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Bottommat.mat using Guid(594bec8fcf0d2b542ac51fa09c464af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbebb7e3007016562b335abb6fc20c21') in 0.074768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NPC/Remy_Shoes_Specular.png
+  artifactKey: Guid(2e8f9b6114b41284a89b88077865fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Shoes_Specular.png using Guid(2e8f9b6114b41284a89b88077865fcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c22ac5404f0f428554228e3a74e57e') in 0.017674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NPC/Remy_Hair_Diffuse.png
+  artifactKey: Guid(4da5ba3a935607c4080453081e52c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Hair_Diffuse.png using Guid(4da5ba3a935607c4080453081e52c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf934637e6113e848b05d30ac514b47') in 0.014871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NPC/Remy_Bottom_Gloss.png
+  artifactKey: Guid(9015282161df52f46a932727278b9404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Bottom_Gloss.png using Guid(9015282161df52f46a932727278b9404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b9352bd2082f34653849f4013b9782') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NPC/remy@Sprint.fbx
+  artifactKey: Guid(f4fb927eb914a3c4c9e1f2623258cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/remy@Sprint.fbx using Guid(f4fb927eb914a3c4c9e1f2623258cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598fa748e1d274f61fbed42045cbd713') in 0.191931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NPC/Remy_Bottom_Specular.png
+  artifactKey: Guid(049fd890807056242b6749b3272a75a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Bottom_Specular.png using Guid(049fd890807056242b6749b3272a75a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1960f82c80f9e27dc215235a8b6cac') in 0.014557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NPC/Remy_Hair_Opacity.png
+  artifactKey: Guid(8e99cb69d8b69264ca416a0e799fcfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Hair_Opacity.png using Guid(8e99cb69d8b69264ca416a0e799fcfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6adcab8704a521da7a78e363fb6de7c') in 0.016052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NPC/Remy_Body_Normal.png
+  artifactKey: Guid(f35b8e3cfa2dbcc46a42f72863e3a521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Body_Normal.png using Guid(f35b8e3cfa2dbcc46a42f72863e3a521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8731e8d464faf38450cecf1c9f32ab') in 0.021792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NPC/Remy_Top_Opacity.png
+  artifactKey: Guid(414f6b8cfd6f0ac48a4db76b8fa77957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Top_Opacity.png using Guid(414f6b8cfd6f0ac48a4db76b8fa77957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7fa26679c393f55f42a946c5e427f') in 0.019079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NPC/Remy_Body_Specular.png
+  artifactKey: Guid(0b34e265ee70162428e2f4ed37503885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Body_Specular.png using Guid(0b34e265ee70162428e2f4ed37503885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cc987b94618f2e9d2f937e0f01beff') in 0.022177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NPC/Remy_Hair_Normal.png
+  artifactKey: Guid(66f64aff4e9e785429bd7bf4e7e1846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Hair_Normal.png using Guid(66f64aff4e9e785429bd7bf4e7e1846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cc3134a23c5eb6e33e8bb1df3c3b1f') in 0.013713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NPC/Hairmat.mat
+  artifactKey: Guid(2c2f24de57231d04180c806083d7ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Hairmat.mat using Guid(2c2f24de57231d04180c806083d7ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c9af8ddce1cfd31217e77610997d57') in 0.018619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NPC/Remy_Shoes_Gloss.png
+  artifactKey: Guid(e2be0e3565b8528479c0988fb26cc9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Shoes_Gloss.png using Guid(e2be0e3565b8528479c0988fb26cc9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dac8186132ed577d78e23d96df058b') in 0.015369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NPC/Topmat.mat
+  artifactKey: Guid(26c63e7b3427e6f4ebe1d03d857c31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Topmat.mat using Guid(26c63e7b3427e6f4ebe1d03d857c31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719e68a32a79774b014c5a3e9f818888') in 0.016004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Invector-3rdPersonController_LITE
+  artifactKey: Guid(3ec12b2093b3ec94e85cf8c565ef82dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE using Guid(3ec12b2093b3ec94e85cf8c565ef82dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff23362eb33a60b03ee9d09f77e7d0e') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NPC/Shoesmat.mat
+  artifactKey: Guid(e954680fd8dfdfd47a331e32ceada2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Shoesmat.mat using Guid(e954680fd8dfdfd47a331e32ceada2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6a682a4f6563ceb286709f5ad81f1') in 0.015924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NPC/Bodymat.mat
+  artifactKey: Guid(e6f3fc9a753928e40a00d533177fdd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Bodymat.mat using Guid(e6f3fc9a753928e40a00d533177fdd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ab5c4f18aec4e435984fbfb1a9522c') in 0.020188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NPC/Remy_Hair_Specular.png
+  artifactKey: Guid(3d3e41feb53ad3b48a974f4a6c27e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Hair_Specular.png using Guid(3d3e41feb53ad3b48a974f4a6c27e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8480564f53be5ee780073f5ac07d14d') in 0.012769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPC/Remy_Hair_Gloss.png
+  artifactKey: Guid(28e6a52c5b7235748b6af79821d54282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Hair_Gloss.png using Guid(28e6a52c5b7235748b6af79821d54282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ed2a09e934f42a171d9051624c722') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NPC/Remy_Top_Diffuse.png
+  artifactKey: Guid(a095728dc53a68c4a80598e8585ab2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Top_Diffuse.png using Guid(a095728dc53a68c4a80598e8585ab2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853a8dc1bb8ddb7cdbcf1e320df25903') in 0.013105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NPC/Movement.cs
+  artifactKey: Guid(3274d83d971b5344797adfb3f117b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Movement.cs using Guid(3274d83d971b5344797adfb3f117b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef04dc34323a23864dc66bec59fd264f') in 0.008905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NPC/Remy_Top_Normal.png
+  artifactKey: Guid(ae1f921c5301f844481a997d6e6b74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Top_Normal.png using Guid(ae1f921c5301f844481a997d6e6b74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382163aa44c34f6fee37caca6a35f414') in 0.013687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NPC/Remy_Body_Gloss.png
+  artifactKey: Guid(d83bae839b069344f94614cebe4ccae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Body_Gloss.png using Guid(d83bae839b069344f94614cebe4ccae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e30a3059fb8b16dae1b9d3319093b') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NPC/Remy_Body_Opacity.png
+  artifactKey: Guid(8d1295e770768ee45b52a5cf0bdd3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Body_Opacity.png using Guid(8d1295e770768ee45b52a5cf0bdd3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000de234dcc2906fd2f65c57d1881655') in 0.014672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NPC/Remy_Top_Gloss.png
+  artifactKey: Guid(878c3dae4e76ba142820c53df7325b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Top_Gloss.png using Guid(878c3dae4e76ba142820c53df7325b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615e41a1689fefc57aa5b5ee355caba3') in 0.013320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NPC/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(c00b354adb8486844bd3f6e300561bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Shoes_Diffuse.png using Guid(c00b354adb8486844bd3f6e300561bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d258f6992f3407de7b68ba3bb47052b') in 0.014098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NPC/Remy_Bottom_Opacity.png
+  artifactKey: Guid(4dc637eb73ead3845b212fb27db22c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Bottom_Opacity.png using Guid(4dc637eb73ead3845b212fb27db22c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947dbbffb71d9913650a94438d855ee') in 0.012232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NPC/Remy_Shoes_Normal.png
+  artifactKey: Guid(62142e929bb78b246a681bfcd590eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Shoes_Normal.png using Guid(62142e929bb78b246a681bfcd590eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17edbf7063ac3ce030dfb3736ac8387e') in 0.012638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPC/Remy_Bottom_Normal.png
+  artifactKey: Guid(35895899d39570b48b452371cf077f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Remy_Bottom_Normal.png using Guid(35895899d39570b48b452371cf077f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80d6324dcc9bb9732b4668dba353cba') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NPC
+  artifactKey: Guid(b2a3701da28d71e4992ee1ca2c6e82b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC using Guid(b2a3701da28d71e4992ee1ca2c6e82b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8705b1b39a9add321de6ba1f7edb06') in 0.005841 seconds 
